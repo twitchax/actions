@@ -1,4 +1,4 @@
-FROM dotnet:2.2-sdk-bionic
+FROM microsoft/dotnet:2.2-sdk-bionic
 
 LABEL "name"="Dotnet Action"
 LABEL "maintainer"="Aaron Roney <twitchax@gmail.com>"
