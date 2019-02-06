@@ -10,5 +10,6 @@ LABEL "com.github.actions.name"="Dotnet"
 LABEL "com.github.actions.description"="This is an Action to run dotnet commands."
 
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
